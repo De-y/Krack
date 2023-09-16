@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "krack:block/chemistry_block"
+    }
+  }
+}

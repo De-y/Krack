@@ -1,0 +1,16 @@
+{
+  "_fv": 47,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Banker",
+    "pointOfInterest": {
+      "value": "Blocks.GOLD_BLOCK"
+    },
+    "actionSound": {
+      "value": "block.chest.open"
+    },
+    "hat": "None",
+    "professionTextureFile": "dealer.png",
+    "zombifiedProfessionTextureFile": "iholseh.png"
+  }
+}

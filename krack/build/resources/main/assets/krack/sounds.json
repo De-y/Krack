@@ -1,0 +1,19 @@
+{
+  "music_14": {
+    "subtitle": "subtitles.music_14",
+    "sounds": [
+      {
+        "name": "krack:joyful",
+        "stream": false
+      }
+    ]
+  },
+  "cocacolaespumasound": {
+    "sounds": [
+      {
+        "name": "krack:cocacolaespuma",
+        "stream": false
+      }
+    ]
+  }
+}

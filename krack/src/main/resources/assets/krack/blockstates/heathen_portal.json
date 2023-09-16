@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "krack:block/heathen_portal_ew"
+    },
+    "axis=x": {
+      "model": "krack:block/heathen_portal_ns"
+    }
+  }
+}

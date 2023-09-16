@@ -1,0 +1,23 @@
+{
+  "_fv": 47,
+  "_type": "potioneffect",
+  "definition": {
+    "effectName": "High Alert",
+    "icon": "highalert.png",
+    "color": {
+      "value": -26070,
+      "falpha": 0.0
+    },
+    "isInstant": true,
+    "isBad": true,
+    "isBenefitical": true,
+    "renderStatusInInventory": true,
+    "renderStatusInHUD": true,
+    "onStarted": {
+      "name": "HighAlertEffectStartedapplied"
+    },
+    "onExpired": {
+      "name": "HighAlertEffectExpires"
+    }
+  }
+}

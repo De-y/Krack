@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head"
+    },
+    "title": {
+      "translate": "advancements.existing.title"
+    },
+    "description": {
+      "translate": "advancements.existing.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "existing": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "parent": "minecraft:story/root"
+}

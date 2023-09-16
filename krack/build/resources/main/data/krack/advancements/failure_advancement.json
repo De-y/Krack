@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "title": {
+      "translate": "advancements.failure_advancement.title"
+    },
+    "description": {
+      "translate": "advancements.failure_advancement.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "failure_advancement": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "parent": "krack:existing"
+}

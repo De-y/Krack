@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "disc14",
+    "description": "The rarest music disc playing a recording of the ancient builders.",
+    "creativeTab": {
+      "value": "TRANSPORTATION"
+    },
+    "specialInfo": [],
+    "hasGlow": true,
+    "music": {
+      "value": "CUSTOM:music_14"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

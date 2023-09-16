@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of High Alert",
+    "splashName": "Splash Potion of High Alert",
+    "lingeringName": "Lingering Potion of High Alert",
+    "arrowName": "Arrow of High Alert",
+    "effects": [
+      {
+        "effect": {
+          "value": "CUSTOM:HighAlert"
+        },
+        "duration": 3601,
+        "amplifier": 3,
+        "ambient": false,
+        "showParticles": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "painting",
+  "definition": {
+    "texture": "krack.png",
+    "width": 80,
+    "height": 54,
+    "title": "logo",
+    "author": "KRACK"
+  }
+}

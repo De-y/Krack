@@ -1,0 +1,16 @@
+{
+  "_fv": 47,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "Dealer",
+    "pointOfInterest": {
+      "value": "CUSTOM:ChemistryBlock"
+    },
+    "actionSound": {
+      "value": "ambient.nether_wastes.mood"
+    },
+    "hat": "None",
+    "professionTextureFile": "13fpbwe83fd61.png",
+    "zombifiedProfessionTextureFile": "13fpbwe83fd611.png"
+  }
+}

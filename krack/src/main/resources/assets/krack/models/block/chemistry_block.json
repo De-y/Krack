@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "krack:block/m_cracked",
+    "up": "krack:block/top_chemistry_block",
+    "north": "krack:block/m_cracked",
+    "east": "krack:block/m_cracked",
+    "south": "krack:block/m_cracked",
+    "west": "krack:block/m_cracked",
+    "particle": "krack:block/m_cracked"
+  },
+  "render_type": "solid"
+}

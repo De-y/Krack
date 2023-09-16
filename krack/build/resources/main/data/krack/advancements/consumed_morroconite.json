@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "krack:morroconite"
+    },
+    "title": {
+      "translate": "advancements.consumed_morroconite.title"
+    },
+    "description": {
+      "translate": "advancements.consumed_morroconite.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "consumed_morroconite": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": [
+            "krack:morroconite"
+          ]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "minecraft:story/root"
+}

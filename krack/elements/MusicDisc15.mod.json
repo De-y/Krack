@@ -1,0 +1,19 @@
+{
+  "_fv": 47,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "musicdisc15",
+    "description": "Primed Creeper",
+    "creativeTab": {
+      "value": "No creative tab entry"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "entity.creeper.primed"
+    },
+    "lengthInTicks": 100,
+    "analogOutput": 0
+  }
+}

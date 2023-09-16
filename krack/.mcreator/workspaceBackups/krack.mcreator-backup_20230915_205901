@@ -1,0 +1,803 @@
+{
+  "mod_elements": [
+    {
+      "name": "ClearOnKeyPressed",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/ClearOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Clear",
+      "type": "keybind",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clear",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/network/ClearMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "DeathOnKeyPressed",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/DeathOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Death",
+      "type": "keybind",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "death",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/network/DeathMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Existing",
+      "type": "achievement",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "existing",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/advancements/existing.json"
+        ]
+      }
+    },
+    {
+      "name": "Necromancer",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daggerofdeath",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/krack/models/item/daggerofdeath.json",
+          "src/main/java/net/avnce/krack/item/NecromancerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Tearsofdeath",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vialofdeath",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/item/TearsofdeathItem.java",
+          "src/main/resources/assets/krack/models/item/vialofdeath.json"
+        ]
+      }
+    },
+    {
+      "name": "Tearsdeath",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tearsdeath",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/recipes/brewing/TearsdeathBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Daggeronecromancer",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "daggeronecromancer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/recipes/daggeronecromancer.json"
+        ]
+      }
+    },
+    {
+      "name": "MusicDisc14",
+      "type": "musicdisc",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_14",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/krack/models/item/music_disc_14.json",
+          "src/main/java/net/avnce/krack/item/MusicDisc14Item.java"
+        ]
+      }
+    },
+    {
+      "name": "What",
+      "type": "painting",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "High",
+      "type": "potioneffect",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/potion/HighMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "HighPotion",
+      "type": "potion",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "transfer_nether_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HighEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/HighEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LockIn",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morroconite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/krack/models/item/morroconite.json",
+          "src/main/java/net/avnce/krack/item/LockInItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Morroconiterecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morroconiterecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/recipes/morroconiterecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Morrocanaxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morrocanaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/item/MorrocanaxeItem.java",
+          "src/main/resources/assets/krack/models/item/morrocanaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cracked",
+      "type": "enchantment",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cracked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/enchantment/CrackedEnchantment.java"
+        ]
+      }
+    },
+    {
+      "name": "Whatisdeath",
+      "type": "achievement",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "whatisdeath",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/advancements/whatisdeath.json"
+        ]
+      }
+    },
+    {
+      "name": "Deathadvancement",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathadvancement",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/DeathadvancementProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ConsumedMorroconite",
+      "type": "achievement",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "consumed_morroconite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/advancements/consumed_morroconite.json"
+        ]
+      }
+    },
+    {
+      "name": "Morrocanaxerecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morrocanaxerecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/recipes/morrocanaxerecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Cocacola",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocacola",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/item/CocacolaItem.java",
+          "src/main/resources/assets/krack/models/item/cocacola.json"
+        ]
+      }
+    },
+    {
+      "name": "CocacolaProceedure",
+      "type": "procedure",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocacola_proceedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/CocacolaProceedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Cocacolarecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cocacolarecipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/recipes/cocacolarecipe.json"
+        ]
+      }
+    },
+    {
+      "name": "FailureAdvancement",
+      "type": "achievement",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "failure_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/advancements/failure_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Banker",
+      "type": "villagerprofession",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banker",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BankerTrade",
+      "type": "villagertrade",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "banker_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MusicDisc15",
+      "type": "musicdisc",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_15",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/krack/models/item/music_disc_15.json",
+          "src/main/java/net/avnce/krack/item/MusicDisc15Item.java"
+        ]
+      }
+    },
+    {
+      "name": "HighAlert",
+      "type": "potioneffect",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_alert",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/potion/HighAlertMobEffect.java"
+        ]
+      }
+    },
+    {
+      "name": "HighAlertEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_alert_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/HighAlertEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HighAlertEffectExpires",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_alert_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/HighAlertEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HighAlertAdvancement",
+      "type": "achievement",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_alert_advancement",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/advancements/high_alert_advancement.json"
+        ]
+      }
+    },
+    {
+      "name": "Dealer",
+      "type": "villagerprofession",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dealer",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "CokePropertyValueProvider",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coke_property_value_provider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/CokePropertyValueProviderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Coke",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "secretfooditem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/krack/models/item/secretfooditem.json",
+          "src/main/java/net/avnce/krack/item/CokeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "HighAlertPotion",
+      "type": "potion",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "high_alert_potion",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "BowOfGod",
+      "type": "rangeditem",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bow_of_god",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/entity/BowOfGodEntity.java",
+          "src/main/resources/assets/krack/models/item/bow_of_god.json",
+          "src/main/java/net/avnce/krack/item/BowOfGodItem.java"
+        ]
+      }
+    },
+    {
+      "name": "DealerTrade",
+      "type": "villagertrade",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dealer_trade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ChemistryBlock",
+      "type": "block",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "chemistry_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/krack/models/item/chemistry_block.json",
+          "src/main/resources/assets/krack/models/block/chemistry_block.json",
+          "src/main/java/net/avnce/krack/block/ChemistryBlockBlock.java",
+          "src/main/resources/assets/krack/blockstates/chemistry_block.json"
+        ]
+      }
+    },
+    {
+      "name": "CraftBenchRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_bench_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/recipes/craft_bench_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "Login",
+      "type": "command",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ohio",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/command/LoginCommand.java"
+        ]
+      }
+    },
+    {
+      "name": "OhioProceedure",
+      "type": "procedure",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ohio_proceedure",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/OhioProceedureProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HelloGui",
+      "type": "gui",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hello_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/world/inventory/HelloGuiMenu.java",
+          "src/main/java/net/avnce/krack/client/gui/HelloGuiScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "Heathen",
+      "type": "dimension",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heathen",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/item/HeathenItem.java",
+          "src/main/resources/assets/krack/models/item/heathen.json",
+          "src/main/java/net/avnce/krack/world/dimension/HeathenDimension.java",
+          "src/main/resources/assets/krack/models/block/heathen_portal_ew.json",
+          "src/main/resources/assets/krack/models/block/heathen_portal_ns.json",
+          "src/main/resources/data/krack/dimension/heathen.json",
+          "src/main/java/net/avnce/krack/world/teleporter/HeathenPortalShape.java",
+          "src/main/java/net/avnce/krack/world/teleporter/HeathenTeleporter.java",
+          "src/main/resources/assets/krack/blockstates/heathen_portal.json",
+          "src/main/java/net/avnce/krack/block/HeathenPortalBlock.java",
+          "src/main/resources/data/krack/dimension_type/heathen.json"
+        ]
+      }
+    },
+    {
+      "name": "Heathenportaligniter",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heathenportaligniter",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/recipes/heathenportaligniter.json"
+        ]
+      }
+    },
+    {
+      "name": "Heathenvilla",
+      "type": "structure",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "heathenvilla",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/forge/biome_modifier/heathenvilla_biome_modifier.json",
+          "src/main/java/net/avnce/krack/world/features/HeathenvillaFeature.java",
+          "src/main/resources/data/krack/worldgen/configured_feature/heathenvilla.json",
+          "src/main/resources/data/krack/worldgen/placed_feature/heathenvilla.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "music_14",
+      "files": [
+        "joyful"
+      ],
+      "category": "neutral",
+      "subtitle": "We all love this person."
+    },
+    {
+      "name": "cocacolaespumasound",
+      "files": [
+        "cocacolaespuma"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.cocacolaespumasound": "",
+      "item.krack.vialofdeath": "Vial of Death",
+      "advancements.whatisdeath.title": "Death?",
+      "painting.krack.what.title": "logo",
+      "entity.minecraft.villager.krack.banker": "Banker",
+      "advancements.consumed_morroconite.descr": "Why did you consume morroconite? YOU WERE MEANT TO USE IT FOR MAKING TOOLS!",
+      "item.krack.morroconite": "Morroconite",
+      "item.minecraft.lingering_potion.effect.transfer_nether_potion": "Lingering Potion of Nether Transfer",
+      "advancements.whatisdeath.descr": "You died!",
+      "item.minecraft.splash_potion.effect.high_alert_potion": "Splash Potion of High Alert",
+      "advancements.consumed_morroconite.title": "Consumed Morroconite",
+      "advancements.failure_advancement.descr": "Why are you a failure?",
+      "item.krack.bow_of_god": "God\u0027s Bow",
+      "item.krack.daggerofdeath": "Necromancer",
+      "item.krack.morrocanaxe": "Morrocan Axe",
+      "item.krack.heathen": "Heathen Igniter",
+      "advancements.existing.title": "Existing",
+      "advancements.existing.descr": "You exist! Now go make your parents proud.",
+      "item.minecraft.potion.effect.transfer_nether_potion": "Potion of Nether Transfer",
+      "item.minecraft.potion.effect.high_alert_potion": "Potion of High Alert",
+      "item.minecraft.tipped_arrow.effect.high_alert_potion": "Arrow of High Alert",
+      "gui.krack.hello_gui.label_the_ohio_joke_is_overused_and_ov": "The Ohio joke is overused and overrated.",
+      "item.krack.cocacola": "Cocacola",
+      "effect.krack.high": "Nether Transfer",
+      "item.minecraft.tipped_arrow.effect.transfer_nether_potion": "Arrow of Nether Transfer",
+      "advancements.high_alert_advancement.descr": "You were on High Alert.",
+      "item.krack.music_disc_15.desc": "Primed Creeper",
+      "gui.krack.hello_gui.label_you_have_been_banned_from_playin": "You have been banned from playing for 30 years.",
+      "enchantment.krack.cracked": "Cracked",
+      "item.krack.secretfooditem": "Unknown Substance",
+      "key.krack.clear": "Clear Inventory",
+      "advancements.high_alert_advancement.title": "High Alert",
+      "advancements.failure_advancement.title": "Failure",
+      "entity.minecraft.villager.krack.dealer": "Dealer",
+      "item.krack.music_disc_14.desc": "The rarest music disc playing a recording of the ancient builders.",
+      "block.krack.chemistry_block": "Craft Bench",
+      "painting.krack.what.author": "KRACK",
+      "subtitles.music_14": "We all love this person.",
+      "effect.krack.high_alert": "High Alert",
+      "item.minecraft.splash_potion.effect.transfer_nether_potion": "Splash Potion of Nether Transfer",
+      "key.krack.death": "Death",
+      "item.krack.music_disc_15": "Music Disc",
+      "item.minecraft.lingering_potion.effect.high_alert_potion": "Lingering Potion of High Alert",
+      "item.krack.music_disc_14": "Music Disc"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "krack",
+    "modName": "krack",
+    "version": "1.0.0",
+    "author": "accur, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.20.1",
+    "modElementsPackage": "net.avnce.krack",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300336712
+}
