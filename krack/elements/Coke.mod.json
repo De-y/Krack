@@ -10,7 +10,7 @@
     "name": "Unknown Substance",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "FOOD"
+      "value": "CUSTOM:Crack"
     },
     "stackSize": 64,
     "enchantability": 0,

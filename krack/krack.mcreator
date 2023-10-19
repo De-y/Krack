@@ -709,6 +709,183 @@
           "src/main/resources/data/krack/worldgen/placed_feature/heathenvilla.json"
         ]
       }
+    },
+    {
+      "name": "Wanderer",
+      "type": "livingentity",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wanderer",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/krack/forge/biome_modifier/wanderer_biome_modifier.json",
+          "src/main/resources/assets/krack/models/item/wanderer_spawn_egg.json",
+          "src/main/java/net/avnce/krack/entity/WandererEntity.java",
+          "src/main/java/net/avnce/krack/client/renderer/WandererRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "Money",
+      "type": "item",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "money",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/krack/models/item/money.json",
+          "src/main/java/net/avnce/krack/item/MoneyItem.java"
+        ]
+      }
+    },
+    {
+      "name": "IRSagent",
+      "type": "villagerprofession",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ir_sagent",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Irstrade",
+      "type": "villagertrade",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "irstrade",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Taxreturns",
+      "type": "item",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "taxreturns",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/item/TaxreturnsItem.java",
+          "src/main/resources/assets/krack/models/item/taxreturns.json"
+        ]
+      }
+    },
+    {
+      "name": "Justdeath",
+      "type": "potion",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "justdeath",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Deathcraft",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deathcraft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/recipes/brewing/DeathcraftBrewingRecipe.java"
+        ]
+      }
+    },
+    {
+      "name": "Yoshitaxfraud",
+      "type": "painting",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yoshitaxfraud",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Payday3",
+      "type": "painting",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "payday_3",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Crack",
+      "type": "tab",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crack",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "MOnKeyPressed",
+      "type": "procedure",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "m_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/MOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LavaarmorHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lavaarmor_helmet_tick_event",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/procedures/LavaarmorHelmetTickEventProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LavaArmor",
+      "type": "armor",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lava_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/avnce/krack/item/LavaArmorItem.java",
+          "src/main/resources/assets/krack/models/item/lava_armor_leggings.json",
+          "src/main/resources/assets/krack/models/item/lava_armor_boots.json",
+          "src/main/resources/assets/krack/models/item/lava_armor_helmet.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -733,45 +910,62 @@
   "language_map": {
     "en_us": {
       "subtitles.cocacolaespumasound": "",
+      "painting.krack.yoshitaxfraud.title": "Yoshi Commits Tax Fraud",
       "item.krack.vialofdeath": "Vial of Death",
-      "advancements.whatisdeath.title": "Death?",
-      "painting.krack.what.title": "logo",
-      "entity.minecraft.villager.krack.banker": "Banker",
       "advancements.consumed_morroconite.descr": "Why did you consume morroconite? YOU WERE MEANT TO USE IT FOR MAKING TOOLS!",
-      "item.krack.morroconite": "Morroconite",
-      "item.minecraft.lingering_potion.effect.transfer_nether_potion": "Lingering Potion of Nether Transfer",
-      "advancements.whatisdeath.descr": "You died!",
+      "item.krack.money": "Money",
       "item.minecraft.splash_potion.effect.high_alert_potion": "Splash Potion of High Alert",
       "advancements.consumed_morroconite.title": "Consumed Morroconite",
-      "advancements.failure_advancement.descr": "Why are you a failure?",
       "item.krack.bow_of_god": "God\u0027s Bow",
-      "item.krack.daggerofdeath": "Necromancer",
       "item.krack.morrocanaxe": "Morrocan Axe",
-      "item.krack.heathen": "Heathen Igniter",
       "advancements.existing.title": "Existing",
       "advancements.existing.descr": "You exist! Now go make your parents proud.",
-      "item.minecraft.potion.effect.transfer_nether_potion": "Potion of Nether Transfer",
       "item.minecraft.potion.effect.high_alert_potion": "Potion of High Alert",
-      "item.minecraft.tipped_arrow.effect.high_alert_potion": "Arrow of High Alert",
-      "gui.krack.hello_gui.label_the_ohio_joke_is_overused_and_ov": "The Ohio joke is overused and overrated.",
+      "item_group.krack.crack": "Krack",
       "item.krack.cocacola": "Cocacola",
-      "effect.krack.high": "Nether Transfer",
+      "item.krack.lava_armor_boots": "Lava Boots",
       "item.minecraft.tipped_arrow.effect.transfer_nether_potion": "Arrow of Nether Transfer",
       "advancements.high_alert_advancement.descr": "You were on High Alert.",
-      "item.krack.music_disc_15.desc": "Primed Creeper",
-      "gui.krack.hello_gui.label_you_have_been_banned_from_playin": "You have been banned from playing for 30 years.",
       "enchantment.krack.cracked": "Cracked",
       "item.krack.secretfooditem": "Unknown Substance",
       "key.krack.clear": "Clear Inventory",
-      "advancements.high_alert_advancement.title": "High Alert",
       "advancements.failure_advancement.title": "Failure",
-      "entity.minecraft.villager.krack.dealer": "Dealer",
       "item.krack.music_disc_14.desc": "The rarest music disc playing a recording of the ancient builders.",
-      "block.krack.chemistry_block": "Craft Bench",
       "painting.krack.what.author": "KRACK",
       "subtitles.music_14": "We all love this person.",
-      "effect.krack.high_alert": "High Alert",
+      "item.minecraft.splash_potion.effect.justdeath": "Splash Potion of Death",
+      "item.minecraft.tipped_arrow.effect.justdeath": "Arrow of Death",
+      "item.krack.lava_armor_leggings": "Lava Leggings ",
+      "item.krack.taxreturns": "Taxes",
+      "painting.krack.payday_3.author": "Overkill Software",
       "item.minecraft.splash_potion.effect.transfer_nether_potion": "Splash Potion of Nether Transfer",
+      "painting.krack.yoshitaxfraud.author": "Nintendo",
+      "entity.minecraft.villager.krack.banker": "Banker",
+      "painting.krack.what.title": "logo",
+      "advancements.whatisdeath.title": "Death?",
+      "item.krack.morroconite": "Morroconite",
+      "item.minecraft.lingering_potion.effect.transfer_nether_potion": "Lingering Potion of Nether Transfer",
+      "entity.minecraft.villager.krack.ir_sagent": "IRS AGENT",
+      "advancements.whatisdeath.descr": "You died!",
+      "advancements.failure_advancement.descr": "Why are you a failure?",
+      "item.krack.daggerofdeath": "Necromancer",
+      "item.krack.heathen": "Heathen Igniter",
+      "painting.krack.payday_3.title": "Payday 3",
+      "item.minecraft.potion.effect.transfer_nether_potion": "Potion of Nether Transfer",
+      "item.minecraft.tipped_arrow.effect.high_alert_potion": "Arrow of High Alert",
+      "gui.krack.hello_gui.label_the_ohio_joke_is_overused_and_ov": "The Ohio joke is overused and overrated.",
+      "item.minecraft.lingering_potion.effect.justdeath": "Lingering Potion of Death",
+      "item.krack.wanderer_spawn_egg": "Wanderer Spawn Egg",
+      "effect.krack.high": "Nether Transfer",
+      "item.minecraft.potion.effect.justdeath": "Potion of Death",
+      "item.krack.music_disc_15.desc": "Primed Creeper",
+      "gui.krack.hello_gui.label_you_have_been_banned_from_playin": "You have been banned from playing for 30 years.",
+      "entity.krack.wanderer": "Wanderer",
+      "advancements.high_alert_advancement.title": "High Alert",
+      "entity.minecraft.villager.krack.dealer": "Dealer",
+      "block.krack.chemistry_block": "Craft Bench",
+      "item.krack.lava_armor_helmet": "Lava Helmet",
+      "effect.krack.high_alert": "High Alert",
       "key.krack.death": "Death",
       "item.krack.music_disc_15": "Music Disc",
       "item.minecraft.lingering_potion.effect.high_alert_potion": "Lingering Potion of High Alert",

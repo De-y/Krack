@@ -40,7 +40,7 @@
     "hasGravity": true,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Crack"
     },
     "destroyTool": "Not specified",
     "customDrop": {

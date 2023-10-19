@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "tab",
+  "definition": {
+    "name": "Krack",
+    "icon": {
+      "value": "Items.LAVA_BUCKET"
+    },
+    "showSearch": false
+  }
+}

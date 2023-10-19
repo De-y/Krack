@@ -7,17 +7,21 @@ package net.avnce.krack.init;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.ForgeSpawnEggItem;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
 
 import net.avnce.krack.item.TearsofdeathItem;
+import net.avnce.krack.item.TaxreturnsItem;
 import net.avnce.krack.item.NecromancerItem;
 import net.avnce.krack.item.MusicDisc15Item;
 import net.avnce.krack.item.MusicDisc14Item;
 import net.avnce.krack.item.MorrocanaxeItem;
+import net.avnce.krack.item.MoneyItem;
 import net.avnce.krack.item.LockInItem;
+import net.avnce.krack.item.LavaArmorItem;
 import net.avnce.krack.item.HeathenItem;
 import net.avnce.krack.item.CokeItem;
 import net.avnce.krack.item.CocacolaItem;
@@ -37,6 +41,12 @@ public class KrackModItems {
 	public static final RegistryObject<Item> BOW_OF_GOD = REGISTRY.register("bow_of_god", () -> new BowOfGodItem());
 	public static final RegistryObject<Item> CHEMISTRY_BLOCK = block(KrackModBlocks.CHEMISTRY_BLOCK);
 	public static final RegistryObject<Item> HEATHEN = REGISTRY.register("heathen", () -> new HeathenItem());
+	public static final RegistryObject<Item> WANDERER_SPAWN_EGG = REGISTRY.register("wanderer_spawn_egg", () -> new ForgeSpawnEggItem(KrackModEntities.WANDERER, -6723841, -10027162, new Item.Properties()));
+	public static final RegistryObject<Item> MONEY = REGISTRY.register("money", () -> new MoneyItem());
+	public static final RegistryObject<Item> TAXRETURNS = REGISTRY.register("taxreturns", () -> new TaxreturnsItem());
+	public static final RegistryObject<Item> LAVA_ARMOR_HELMET = REGISTRY.register("lava_armor_helmet", () -> new LavaArmorItem.Helmet());
+	public static final RegistryObject<Item> LAVA_ARMOR_LEGGINGS = REGISTRY.register("lava_armor_leggings", () -> new LavaArmorItem.Leggings());
+	public static final RegistryObject<Item> LAVA_ARMOR_BOOTS = REGISTRY.register("lava_armor_boots", () -> new LavaArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -1,0 +1,21 @@
+{
+  "_fv": 47,
+  "_type": "potion",
+  "definition": {
+    "potionName": "Potion of Death",
+    "splashName": "Splash Potion of Death",
+    "lingeringName": "Lingering Potion of Death",
+    "arrowName": "Arrow of Death",
+    "effects": [
+      {
+        "effect": {
+          "value": "INSTANT_DAMAGE"
+        },
+        "duration": 3600,
+        "amplifier": 100,
+        "ambient": false,
+        "showParticles": false
+      }
+    ]
+  }
+}

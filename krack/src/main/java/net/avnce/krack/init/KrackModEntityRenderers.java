@@ -11,10 +11,13 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.avnce.krack.client.renderer.WandererRenderer;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class KrackModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
 		event.registerEntityRenderer(KrackModEntities.BOW_OF_GOD.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(KrackModEntities.WANDERER.get(), WandererRenderer::new);
 	}
 }

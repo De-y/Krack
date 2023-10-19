@@ -144,6 +144,7 @@ Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/die
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/tick()V from net/minecraft/server/level/ServerPlayer/tick()V: tick -> m_8119_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/getServer()Lnet/minecraft/server/MinecraftServer; from net/minecraft/world/entity/Entity/getServer()Lnet/minecraft/server/MinecraftServer;: getServer -> m_20194_
 Conflicting propagated mapping for net/minecraftforge/common/util/FakePlayer/awardStat(Lnet/minecraft/stats/Stat;I)V from net/minecraft/server/level/ServerPlayer/awardStat(Lnet/minecraft/stats/Stat;I)V: awardStat -> m_6278_
+Conflicting propagated mapping for net/minecraftforge/common/ForgeSpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType; from net/minecraft/world/item/SpawnEggItem/getType(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/entity/EntityType;: getType -> m_43228_
 Conflicting propagated mapping for net/minecraftforge/network/IContainerFactory/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu; from net/minecraft/world/inventory/MenuType$MenuSupplier/create(ILnet/minecraft/world/entity/player/Inventory;)Lnet/minecraft/world/inventory/AbstractContainerMenu;: create -> m_39994_
 Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/minecraftforge/common/BasicItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer; from net/minecraft/world/entity/npc/VillagerTrades$ItemListing/getOffer(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/item/trading/MerchantOffer;: getOffer -> m_213663_
@@ -171,12 +172,18 @@ Writing Output: C:\Users\accur\Documents\GitHub\Krack\krack\build\reobfJar\outpu
   assets/krack/models/item/cocacola.json
   assets/krack/models/item/daggerofdeath.json
   assets/krack/models/item/heathen.json
+  assets/krack/models/item/lava_armor_boots.json
+  assets/krack/models/item/lava_armor_helmet.json
+  assets/krack/models/item/lava_armor_leggings.json
+  assets/krack/models/item/money.json
   assets/krack/models/item/morrocanaxe.json
   assets/krack/models/item/morroconite.json
   assets/krack/models/item/music_disc_14.json
   assets/krack/models/item/music_disc_15.json
   assets/krack/models/item/secretfooditem.json
+  assets/krack/models/item/taxreturns.json
   assets/krack/models/item/vialofdeath.json
+  assets/krack/models/item/wanderer_spawn_egg.json
   assets/krack/sounds.json
   assets/krack/sounds/
   assets/krack/sounds/cocacolaespuma.ogg
@@ -198,26 +205,39 @@ Writing Output: C:\Users\accur\Documents\GitHub\Krack\krack\build\reobfJar\outpu
   assets/krack/textures/entities/banker.png
   assets/krack/textures/entities/dealer.png
   assets/krack/textures/entities/iholseh.png
+  assets/krack/textures/entities/jesse.png
   assets/krack/textures/entity/
   assets/krack/textures/entity/villager/
   assets/krack/textures/entity/villager/profession/
   assets/krack/textures/entity/villager/profession/banker.png
   assets/krack/textures/entity/villager/profession/dealer.png
+  assets/krack/textures/entity/villager/profession/ir_sagent.png
   assets/krack/textures/entity/zombie_villager/
   assets/krack/textures/entity/zombie_villager/profession/
   assets/krack/textures/entity/zombie_villager/profession/banker.png
   assets/krack/textures/entity/zombie_villager/profession/dealer.png
+  assets/krack/textures/entity/zombie_villager/profession/ir_sagent.png
   assets/krack/textures/item/
+  assets/krack/textures/item/armo1_body.png
+  assets/krack/textures/item/armo1_boots.png
+  assets/krack/textures/item/armo1_head.png
+  assets/krack/textures/item/armo1_leggings.png
   assets/krack/textures/item/coca-cola-png-coca-cola-bottle-png-image-750.png
   assets/krack/textures/item/coke.png
   assets/krack/textures/item/disc14.png
   assets/krack/textures/item/godbow.png
   assets/krack/textures/item/heathen_igniter.png
+  assets/krack/textures/item/lava_helmet.png
+  assets/krack/textures/item/lavaboots.png
+  assets/krack/textures/item/lavausrr.png
+  assets/krack/textures/item/money.png
   assets/krack/textures/item/morrocan_axe.png
   assets/krack/textures/item/morroconite.png
   assets/krack/textures/item/musicdisc15.png
   assets/krack/textures/item/necromancer_dagger.png
+  assets/krack/textures/item/tax_confirmation.png
   assets/krack/textures/item/vialofblood.png
+  assets/krack/textures/jokjok.png
   assets/krack/textures/krack.png
   assets/krack/textures/mob_effect/
   assets/krack/textures/mob_effect/confused.png
@@ -226,11 +246,19 @@ Writing Output: C:\Users\accur\Documents\GitHub\Krack\krack\build\reobfJar\outpu
   assets/krack/textures/mob_effect/high_alert.png
   assets/krack/textures/mob_effect/highalert.png
   assets/krack/textures/mob_effect/untitled11.png
+  assets/krack/textures/models/
+  assets/krack/textures/models/armor/
+  assets/krack/textures/models/armor/armo1_layer_1.png
+  assets/krack/textures/models/armor/armo1_layer_2.png
   assets/krack/textures/painting/
+  assets/krack/textures/painting/payday_3.png
   assets/krack/textures/painting/what.png
+  assets/krack/textures/painting/yoshitaxfraud.png
   assets/krack/textures/screens/
   assets/krack/textures/screens/hello_gui.png
+  assets/krack/textures/sprite.png
   assets/krack/textures/untitled11.png
+  assets/krack/textures/ypshi.png
   data/
   data/krack/
   data/krack/advancements/
@@ -246,6 +274,7 @@ Writing Output: C:\Users\accur\Documents\GitHub\Krack\krack\build\reobfJar\outpu
   data/krack/forge/
   data/krack/forge/biome_modifier/
   data/krack/forge/biome_modifier/heathenvilla_biome_modifier.json
+  data/krack/forge/biome_modifier/wanderer_biome_modifier.json
   data/krack/recipes/
   data/krack/recipes/cocacolarecipe.json
   data/krack/recipes/craft_bench_recipe.json
@@ -280,12 +309,16 @@ Writing Output: C:\Users\accur\Documents\GitHub\Krack\krack\build\reobfJar\outpu
   net/avnce/krack/client/
   net/avnce/krack/client/gui/
   net/avnce/krack/client/gui/HelloGuiScreen.class
+  net/avnce/krack/client/renderer/
+  net/avnce/krack/client/renderer/WandererRenderer.class
   net/avnce/krack/command/
   net/avnce/krack/command/LoginCommand.class
   net/avnce/krack/enchantment/
   net/avnce/krack/enchantment/CrackedEnchantment.class
   net/avnce/krack/entity/
   net/avnce/krack/entity/BowOfGodEntity.class
+  net/avnce/krack/entity/WandererEntity$1.class
+  net/avnce/krack/entity/WandererEntity.class
   net/avnce/krack/init/
   net/avnce/krack/init/KrackModBlocks.class
   net/avnce/krack/init/KrackModEnchantments.class
@@ -312,13 +345,20 @@ Writing Output: C:\Users\accur\Documents\GitHub\Krack\krack\build\reobfJar\outpu
   net/avnce/krack/item/CocacolaItem.class
   net/avnce/krack/item/CokeItem.class
   net/avnce/krack/item/HeathenItem.class
+  net/avnce/krack/item/LavaArmorItem$1.class
+  net/avnce/krack/item/LavaArmorItem$Boots.class
+  net/avnce/krack/item/LavaArmorItem$Helmet.class
+  net/avnce/krack/item/LavaArmorItem$Leggings.class
+  net/avnce/krack/item/LavaArmorItem.class
   net/avnce/krack/item/LockInItem.class
+  net/avnce/krack/item/MoneyItem.class
   net/avnce/krack/item/MorrocanaxeItem$1.class
   net/avnce/krack/item/MorrocanaxeItem.class
   net/avnce/krack/item/MusicDisc14Item.class
   net/avnce/krack/item/MusicDisc15Item.class
   net/avnce/krack/item/NecromancerItem$1.class
   net/avnce/krack/item/NecromancerItem.class
+  net/avnce/krack/item/TaxreturnsItem.class
   net/avnce/krack/item/TearsofdeathItem.class
   net/avnce/krack/network/
   net/avnce/krack/network/ClearMessage.class
@@ -335,10 +375,13 @@ Writing Output: C:\Users\accur\Documents\GitHub\Krack\krack\build\reobfJar\outpu
   net/avnce/krack/procedures/HighAlertEffectExpiresProcedure.class
   net/avnce/krack/procedures/HighAlertEffectStartedappliedProcedure.class
   net/avnce/krack/procedures/HighEffectStartedappliedProcedure.class
+  net/avnce/krack/procedures/LavaarmorHelmetTickEventProcedure.class
+  net/avnce/krack/procedures/MOnKeyPressedProcedure.class
   net/avnce/krack/procedures/OhioProceedureProcedure$1.class
   net/avnce/krack/procedures/OhioProceedureProcedure.class
   net/avnce/krack/recipes/
   net/avnce/krack/recipes/brewing/
+  net/avnce/krack/recipes/brewing/DeathcraftBrewingRecipe.class
   net/avnce/krack/recipes/brewing/TearsdeathBrewingRecipe.class
   net/avnce/krack/world/
   net/avnce/krack/world/dimension/

@@ -36,6 +36,7 @@ public class KrackModVillagerProfessions {
 	public static final DeferredRegister<VillagerProfession> PROFESSIONS = DeferredRegister.create(ForgeRegistries.VILLAGER_PROFESSIONS, KrackMod.MODID);
 	public static final RegistryObject<VillagerProfession> BANKER = registerProfession("banker", () -> Blocks.GOLD_BLOCK, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.chest.open")));
 	public static final RegistryObject<VillagerProfession> DEALER = registerProfession("dealer", () -> KrackModBlocks.CHEMISTRY_BLOCK.get(), () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("ambient.nether_wastes.mood")));
+	public static final RegistryObject<VillagerProfession> IR_SAGENT = registerProfession("ir_sagent", () -> Blocks.DIAMOND_BLOCK, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.evoker.celebrate")));
 
 	private static RegistryObject<VillagerProfession> registerProfession(String name, Supplier<Block> block, Supplier<SoundEvent> soundEvent) {
 		POI_TYPES.put(name, new ProfessionPoiType(block, null));

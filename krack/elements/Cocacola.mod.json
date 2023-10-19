@@ -10,7 +10,7 @@
     "name": "Cocacola",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Crack"
     },
     "stackSize": 64,
     "enchantability": 0,

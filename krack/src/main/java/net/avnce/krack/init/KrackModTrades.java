@@ -32,5 +32,13 @@ public class KrackModTrades {
 
 					new ItemStack(KrackModItems.SECRETFOODITEM.get(), 8), 10, 5, 0.05f));
 		}
+		if (event.getType() == KrackModVillagerProfessions.IR_SAGENT.get()) {
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(KrackModItems.MONEY.get(), 12),
+
+					new ItemStack(KrackModItems.MONEY.get(), 4), 10, 5, 0.05f));
+			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(KrackModItems.MONEY.get(), 5),
+
+					new ItemStack(KrackModItems.TAXRETURNS.get()), 10, 5, 0.05f));
+		}
 	}
 }

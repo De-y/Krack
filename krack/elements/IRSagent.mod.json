@@ -1,0 +1,16 @@
+{
+  "_fv": 47,
+  "_type": "villagerprofession",
+  "definition": {
+    "displayName": "IRS AGENT",
+    "pointOfInterest": {
+      "value": "Blocks.DIAMOND_BLOCK"
+    },
+    "actionSound": {
+      "value": "entity.evoker.celebrate"
+    },
+    "hat": "None",
+    "professionTextureFile": "jesse.png",
+    "zombifiedProfessionTextureFile": "iholseh.png"
+  }
+}
